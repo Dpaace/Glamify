@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_ecommerce/Model/GetX/Controller/duplicate_controller.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/Color/color.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/Constant/const.dart';
-import 'package:flutter_application_ecommerce/View/RootScreen/root.dart';
-import 'package:flutter_application_ecommerce/ViewModel/Intro/intro.dart';
 import 'package:get/get.dart';
 import 'package:intro_slider/intro_slider.dart';
+
+import '../../Model/GetX/Controller/duplicate_controller.dart';
+import '../../Model/Tools/Color/color.dart';
+import '../../Model/Tools/Constant/const.dart';
+import '../../ViewModel/Intro/intro.dart';
+import '../RootScreen/root.dart';
 
 class IntroScreen extends StatefulWidget {
   const IntroScreen({super.key});
@@ -22,19 +23,19 @@ class _IntroScreenState extends State<IntroScreen> {
   late List<ContentConfig> contentList = [
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
+        title: "Glamify",
         description:
             "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
         pathImage: manImage),
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
+        title: "Glamify",
         description:
             "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
         pathImage: aboutImage),
     ContentConfig(
         backgroundColor: colors.primary,
-        title: "E-commerce X",
+        title: "Glamify",
         description:
             "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
         pathImage: contentImage)
@@ -60,7 +61,8 @@ class _IntroScreenState extends State<IntroScreen> {
                 width: 40,
                 height: 30,
                 decoration: BoxDecoration(
-                    color: colors.whiteColor, borderRadius: BorderRadius.circular(12)),
+                    color: colors.whiteColor,
+                    borderRadius: BorderRadius.circular(12)),
                 child: Icon(
                   CupertinoIcons.right_chevron,
                   color: colors.blackColor,
