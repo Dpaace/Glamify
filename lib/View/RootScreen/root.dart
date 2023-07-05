@@ -1,16 +1,15 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_ecommerce/View/CartScreen/cart_screen.dart';
-import 'package:flutter_application_ecommerce/View/HomeScreen/home_screen.dart';
-import 'package:flutter_application_ecommerce/View/ProfileScreen/profile_screen.dart';
 import 'package:get/get.dart';
 
 import '../../Model/GetX/Controller/duplicate_controller.dart';
 import '../../Model/GetX/Controller/initial_controller.dart';
 import '../../Model/Tools/Color/color.dart';
 import '../../Model/Tools/Font/font.dart';
+import '../CartScreen/cart_screen.dart';
 import '../HomeScreen/home_screen.dart';
+import '../ProfileScreen/profile_screen.dart';
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key, required this.index});

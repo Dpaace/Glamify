@@ -1,20 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_application_ecommerce/Model/GetX/Controller/duplicate_controller.dart';
-import 'package:flutter_application_ecommerce/Model/GetX/Controller/home_controller.dart';
-import 'package:flutter_application_ecommerce/Model/GetX/Controller/profile_controller.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/Color/color.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/Constant/const.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/Font/font.dart';
-import 'package:flutter_application_ecommerce/Model/Tools/JsonParse/product_parse.dart';
-import 'package:flutter_application_ecommerce/Model/Widget/widget.dart';
-import 'package:flutter_application_ecommerce/View/HomeScreen/SerachScreen/serach_screen.dart';
-import 'package:flutter_application_ecommerce/View/HomeScreen/ShopScreen/shop_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../Model/GetX/Controller/duplicate_controller.dart';
+import '../../Model/GetX/Controller/home_controller.dart';
+import '../../Model/GetX/Controller/profile_controller.dart';
+import '../../Model/Tools/Color/color.dart';
+import '../../Model/Tools/Constant/const.dart';
+import '../../Model/Tools/Font/font.dart';
+import '../../Model/Tools/JsonParse/product_parse.dart';
+import '../../Model/Widget/widget.dart';
+import 'SerachScreen/serach_screen.dart';
+import 'ShopScreen/shop_screen.dart';
 import 'bloc/home_bloc.dart';
 
 class HomeScreen extends StatefulWidget {

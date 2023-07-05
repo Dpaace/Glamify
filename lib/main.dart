@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import 'Model/GetX/Binding/initial_binding.dart';
+import 'Model/GetX/Controller/duplicate_controller.dart';
+import 'View/IntroScreen/intro_screen.dart';
+import 'View/RootScreen/root.dart';
+import 'ViewModel/Initial/initial.dart';
 
 // widget.dart line no 284
 // profile screen.dart
