@@ -103,17 +103,18 @@ class _HomeScreenState extends State<HomeScreen>
                               style: textStyle.bodyNormal,
                             ),
                           )),
-                          PopupMenuItem(
-                              child: TextButton(
-                            onPressed: () {
-                              Get.back();
-                              showLicensePage(context: context);
-                            },
-                            child: Text(
-                              "Application license",
-                              style: textStyle.bodyNormal,
-                            ),
-                          ))
+                          // PopupMenuItem(
+                          //   child: TextButton(
+                          //     onPressed: () {
+                          //       Get.back();
+                          //       showLicensePage(context: context);
+                          //     },
+                          //     child: Text(
+                          //       "Application license",
+                          //       style: textStyle.bodyNormal,
+                          //     ),
+                          //   ),
+                          // ),
                         ]);
                   },
                 ),

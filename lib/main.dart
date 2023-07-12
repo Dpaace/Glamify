@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
     bool isFirst =
         Get.find<DuplicateController>().introFunctions.getLaunchStatus();
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       initialBinding: InitialBinding(),
       title: 'Glamify',
       home: isFirst

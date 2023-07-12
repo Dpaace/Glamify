@@ -16,7 +16,7 @@ class AddressBloc extends Bloc<AddressEvent, AddressState> {
       final profileController = Get.find<ProfileController>();
       final addressFunctions = profileController.addressFunctions;
       final textStyle = duplicateController.textStyle;
-      try {
+        try {
         if (event is AddressStart) {
           emit(AddressLoading());
           final addressList = await addressFunctions.getAddressList();
