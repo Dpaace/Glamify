@@ -24,17 +24,17 @@ class _IntroScreenState extends State<IntroScreen> {
     ContentConfig(
         backgroundColor: colors.primary,
         title: "Glamify",
-        description: "Page 1",
+        description: "Welcome to our Makeup Emporium! Unleash your beauty potential.",
         pathImage: manImage),
     ContentConfig(
         backgroundColor: colors.primary,
         title: "Glamify",
-        description: "Page 2",
+        description: "Discover a world of glamour with our premium makeup collection.",
         pathImage: aboutImage),
     ContentConfig(
         backgroundColor: colors.primary,
         title: "Glamify",
-        description: "Page 3",
+        description: "Join our vibrant makeup community and embrace your unique style.",
         pathImage: contentImage)
   ];
   @override
