@@ -5,7 +5,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
-import 'package:share_plus/share_plus.dart';
 
 import '../../../Model/GetX/Controller/duplicate_controller.dart';
 import '../../../Model/GetX/Controller/profile_controller.dart';
@@ -100,21 +99,6 @@ class _DetailScreenState extends State<DetailScreen> {
                   ),
                 ),
               ),
-              CircleAvatar(
-                backgroundColor: colors.gray,
-                child: IconButton(
-                  highlightColor: colors.whiteColor,
-                  splashColor: colors.whiteColor,
-                  icon: Icon(
-                    CupertinoIcons.arrow_up_right,
-                    color: colors.blackColor,
-                  ),
-                  onPressed: () {
-                    Share.shareWithResult("https://github.com/EmirBashiri",
-                        subject: "Developer github profile");
-                  },
-                ),
-              )
             ],
           ),
         ),
